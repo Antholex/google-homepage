@@ -23,3 +23,22 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+#logo {
+  width: min-content;
+  margin: 0 auto;
+}
+
+#form {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.search-field {
+  width: 400px;
+}
+
+#search-buttons {
+  width: max-content;
+  margin: 0 auto;
+}
