@@ -42,3 +42,15 @@ time, mark, audio, video {
   width: max-content;
   margin: 0 auto;
 }
+
+.right-nav {
+  float: right;
+}
+
+.header {
+  display: inline-block;
+}
+
+.footer-nav {
+  display: inline-block;
+}
