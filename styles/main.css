@@ -26,6 +26,7 @@ time, mark, audio, video {
 
 html, body {
   height: 100%;
+  font: Arial, sans-serif;
 }
 
 .container {
@@ -43,6 +44,10 @@ html, body {
   margin-top: -50px;
 }
 
+.main-content {
+  padding-top: 100px;
+}
+
 #logo {
   width: min-content;
   margin: 0 auto;
@@ -53,13 +58,44 @@ html, body {
   margin: 0 auto;
 }
 
+#search-bar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .search-field {
-  width: 400px;
+  height: 44px;
+  width: 425px;
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+.search-field:hover {
+  box-shadow: 0 1px 3px 1px #e0dbdb;
 }
 
 #search-buttons {
   width: max-content;
   margin: 0 auto;
+}
+
+.search-button {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  padding: 8px 14px;
+  margin: 10px;
+  font-size: 14px;
+  color: #5F6368;
+}
+
+.search-button:hover{
+  border: 1px solid #c6c6c6;
+  background-color: #f8f8f8;
+  color: #222;
+  box-shadow: 0 1px 1px #d1cfcf;
 }
 
 .right-nav {
