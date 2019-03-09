@@ -49,11 +49,13 @@ html, body {
 }
 
 #logo {
+  width: -moz-min-content;
   width: min-content;
   margin: 0 auto;
 }
 
 #form {
+  width: -moz-min-content;
   width: max-content;
   margin: 0 auto;
 }
@@ -77,6 +79,7 @@ html, body {
 }
 
 #search-buttons {
+  width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
 }
