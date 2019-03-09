@@ -29,6 +29,10 @@ html, body {
   font-family: arial, sans-serif;
 }
 
+header {
+  padding: 20px 20px 0 5px;
+}
+
 footer {
   height: 50px;
   bottom: 0;
@@ -50,6 +54,11 @@ footer {
 
 .header-nav {
   display: inline-block;
+}
+
+.header-nav a {
+  padding-left: 15px;
+  vertical-align: text-top;
 }
 
 .footer-nav {
