@@ -140,3 +140,18 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+#apps-link {
+  display: inline-block;
+  background-image: url("../assets/icon.png");
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-origin: content-box;
+  opacity: 0.55;
+}
+
+#apps-link:hover {
+  opacity: 1;
+}
