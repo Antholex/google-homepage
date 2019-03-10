@@ -24,6 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+*:focus {
+  outline: none;
+}
+
 html, body {
   height: 100%;
   font-family: arial, sans-serif;
