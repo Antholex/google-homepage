@@ -24,10 +24,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-*:focus {
-  outline: none;
-}
-
 html, body {
   height: 100%;
   font-family: arial, sans-serif;
@@ -99,6 +95,7 @@ footer {
 
 .search-field:hover, .search-field:focus {
   box-shadow: 0 1px 3px 1px #e0dbdb;
+  outline: none;
 }
 
 #search-buttons {
