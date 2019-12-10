@@ -6,7 +6,7 @@ Completed as part of The Odin Project's [Web Development
 101](https://www.theodinproject.com/courses/web-development-101) course.
 
 The completed project can be viewed at the following link:
-[https://googlehomepage.antholex.co.uk](https://googlehomepage.antholex.co.uk)
+[Google Homepage](https://kind-kilby-2cecea.netlify.com/)
 
 ## Notes
 The page was built without the use of Flexbox or Grid as a means of learning how to position elements without these modules.
